@@ -1,2 +1,2 @@
 from .off_policy_buffer import UniformOffPolicyBuffer
-from numpy.random import beta
+from .on_policy_buffer import GAEBuffer
